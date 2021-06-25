@@ -2,6 +2,42 @@
 	clear: both;
 }
 
+#name h1, h2 {
+	margin: 0;
+}
+
+html, body {
+	font-family: Lato, sans-serif;
+	background-color: #f3f3f3;
+}
+
+body {
+	display: block;
+	margin: 75px;
+}
+
+.mainDetails {
+	color: #181818;
+	display: block;
+	width: 90%;
+	height: 10%;
+	margin: 0 auto;
+}
+
+.sectionContent h2 {
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	color: #444444;
+}
+
+.subDetails {
+	margin-top: 2px;
+	margin-bottom: 3px;
+	color: #444444;
+	font-style: italic;
+	font-size: 14px;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
@@ -19,9 +55,35 @@
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
+	font-style: italic;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.keySkills li {
+	display: inline-block;
+	width: 30%;
+	height: 1px;
+}
+
+hr {
+	border: 1px solid #dedede;
+}
+
+.mainHr {
+	border: 2px solid #cf8a05;
+}
+
+#mainArea {
+	width: 90%;
+	margin: 0 auto;
+}
+
+article p {
+	display: block;
+	margin: 5px auto 20px auto;
 }
