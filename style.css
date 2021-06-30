@@ -24,6 +24,11 @@ body {
 	margin: 0 auto;
 }
 
+a {
+	text-decoration: none;
+	color: #181818
+}
+
 .sectionContent h2 {
 	margin: 0;
 	font-family: Helvetica, sans-serif;
